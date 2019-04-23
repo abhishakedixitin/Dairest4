@@ -51,9 +51,9 @@
 								<ul>
                 
 										  
-											  <li><a href="sign-in.php">Compare Products</a></li>
+											  <li><a href="m_sign-in.php">Compare Products</a></li>
 									
-									<li><a href="sign-up.php">Create an account</a></li>
+									<li><a href="m_sign-up.php">Create an account</a></li>
 								</ul>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<div class="logo logo2">
-								<a href="index.php"><img src="img/logo/logo2.png" width="70%" height="50%" alt=""/></a>
+								<a href="m_index.php"><img src="img/logo/logo2.png" width="70%" height="50%" alt=""/></a>
 							</div>
 						</div>
 						
@@ -92,85 +92,67 @@
 		<!-- header-end -->
 
 <!-- mainmenu-area-start -->
-		
-            
 
-		<div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
-          
-			<div class="container">
-                
-				<div class="row">
-                    
-					<div class="col-md-12" >
-                        
-						<div class="mobile-menu">
-                              
-							<nav id="mobile-menu">
-                                
-								<ul>
-                                    
-                                     <li><a href="index.php">Home</a></li>
-                  <li><a href="#">Navigation</a>
-                    <ul>
-                      <li><a href="wishlist.php">my wishlist</a></li>
-                      <li><a href="cart.php">cart page</a></li>
-                      <li><a href="checkout.php">checkout</a></li>
-                      <li><a href="product-details.php">product-details</a></li>
-                      <li><a href="user_accountpage.php">User account</a></li>
-                      <li><a href="sign-in.php">login</a></li>
-                                            <li><a href="sign-up.php">Register</a></li>
-                      <li><a href="shop.php">shop </a></li>
-                      <li><a href="contact.php">contact us</a></li>
-                    </ul>
-                  </li>
-                                    
-     <li><a href="#">Category</a>
-                    <ul>
-                      <li><a href=#>New Arrivals</a></li>
-                      <li><a href=#>Famous Brands</a></li>
-                      <li><a href=#>Local Popular</a></li>
-                      <li><a href=#>Snickers</a></li>
-                      <li><a href=#>Creations</a></li>
-                    </ul>
-                  </li>
 
-                  <li><a href="shop.php">Gifts</a>
-                    <ul>
-                      <li><a href=#>Birthday Gifts</a></li>
-                      <li><a href=#>Anniversary</a></li>
-                      <li><a href=#>Baby Showers</a></li>
-                      <li><a href=#>Business Gifts</a></li>
-                      <li><a href=#>Treat Yourself</a></li>
-                    </ul>
-                  </li>
 
-                  <li><a href="shop.php">Chocolate</a>
-                    <ul>
-                      <li><a href=#>Dark Chocolate</a></li>
-                      <li><a href=#>Milk Chocolate</a></li>
-                      <li><a href=#>White Chocolate</a></li>
-                      <li><a href=#>Kosher Chocolate</a></li>
-                      <li><a href=#>Associated Chocolate</a></li>
-                    </ul>
-                  </li>
+        <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
 
-                  <li><a href="shop.php">Sprinkles</a>
-                    <ul>
-                      <li><a href=#>Mixes</a></li>
-                      <li><a href=#>Candy</a></li>
-                      <li><a href=#>Kits</a></li>
-                      <li><a href=#>Quins</a></li>
-                      <li><a href=#>Vegan</a></li>
-                    </ul>
-                  </li>
-                 
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12" >
+
+                        <div class="mobile-menu">
+
+                            <nav id="mobile-menu">
+
+
+                                <ul>
+
+                                    <li><a href="m_u_index.php" >Home</a></li>
+
+                                    <li><a href="#">
+                                            <?php
+                                            error_reporting(0);
+                                            session_start();
+                                            $username = $_SESSION['username'];
+                                            $id = $_SESSION['id'];
+                                            $_SESSION['id'] = $id;
+                                            if(isset($_SESSION['username']))
+                                                echo '<span>'.$username.' </span>';
+
+                                            ?></a>
+                                        <ul>
+                                            <li><a href="m_account.php">My Account</a></li>
+                                            <li><a href="m_cart.php">My Cart</a></li>
+
+                                            <li><a href="logout.php">Log Out</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#">Category</a>
+                                        <ul>
+                                            <li><a href="m_u_chocolate.php">Chocolate</a></li>
+                                            <li><a href="m_u_lollipop.php">Lollipop</a></li>
+                                            <li><a href="m_u_cake.php">Cake</a></li>
+
+                                        </ul></li>
+
+
+                                    <li><a href="m_u_service.php" >Customer Service</a></li>
+
+                                    <li><a href="m_u_about.php">About Us</a></li>
+
+                                    <li><a href="m_u_contact.php">Contact Us</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<!-- mainmenu-area-end -->
 
 		<!-- slider-area-start -->  <!-- slider-area-end -->
@@ -199,7 +181,7 @@
 		</a>';
 				
 				echo '<center><h3> Sorry!!!! Username OR Email OR Mobile Number already present.</h3></center><br><br><br>'; 
-				echo '<center><h1><a href="sign-up.php">Click here to Register again</a></h1></center>'; 
+				echo '<center><h1><a href="m_sign-up.php">Click here to Register again</a></h1></center>';
 				?>
 				<script type="text/javascript">
 					alert("Login is compulsary. If NEW user REGISTER first. If EXISTING user LOGIN first. Unautorised user will not be able to Shop.");
@@ -215,7 +197,7 @@
 		</a><br>';
 						echo '<center><h4>Welcome to the candy parade! </h4></center><br><br>'; 
                         echo '<center><h4>User successfully created.</h4></center><br><br><br>';
-						echo '<center><h2><a href="sign-in.php" style="text-decoration:underline">Click here to Sign In</a></h2></center>';
+						echo '<center><h2><a href="m_sign-in.php" style="text-decoration:underline">Click here to Sign In</a></h2></center>';
 				}					
 				}
 				?>	

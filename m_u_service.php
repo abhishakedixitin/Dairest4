@@ -105,8 +105,8 @@ session_start();
                     
 						?></a>
                                     <ul>
-											  <li><a href="account.php">My Account</a></li>
-                                        <li><a href="cart.php">My Cart</a></li>
+											  <li><a href="m_account.php">My Account</a></li>
+                                        <li><a href="m_cart.php">My Cart</a></li>
 											  
                                               <li><a href="logout.php">Log Out</a></li>
 										  </ul>
@@ -146,7 +146,7 @@ session_start();
           
           <br>
           <center> <h4 style="font-size: 140%"> Our main office number is: 565-325-8765. Please call to resolve any issues.</h4></center><br><br><br>
-          <center><h4><a href="sign-in.php" style="text-decoration:underline">Click here to Sign In again!</a></h4></center>'
+          <center><h4><a href="m_sign-in.php" style="text-decoration:underline">Click here to Sign In again!</a></h4></center>'
 <br><br><br>
                                                       
  

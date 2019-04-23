@@ -54,7 +54,7 @@
 
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<div class="logo logo2">
-								<a href="index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
+								<a href="m_index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
 							</div>
 						</div>
 
@@ -126,15 +126,15 @@
           
           
 		    <input type="text" id="name" pattern="^[A-Za-z0-9_]{6,15}$" name="user_name" style="border-color:rgb(110,65,30);border-width:thin" size="23" required title="Username can contain UpperCase or LowerCase alphabet or number, and should be 6-15 characters long">
-              <p> <a href= "forgotUsername.php" style="color:blue;margin-top:5%; font-size: 90%;text-decoration: underline">Forgot Username?</a></p>
+              <p> <a href= "m_forgotUsername.php" style="color:blue;margin-top:5%; font-size: 90%;text-decoration: underline">Forgot Username?</a></p>
      <h4 style="font-size: 150%">Password:</h4>
 		    <input type="password" id="passw" name="user_password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" style="border-color:rgb(110,65,30);border-width:thin" size="23" required title="Password should contain atleast one UpperCase & one LowerCase alphabet, one digit/SpecialChar, and minimum 8 characters long">	<br>
           
-          <p> <a href= "forgotPassword.php" style="color:blue;margin-top:5%; font-size:90% ;text-decoration: underline">Forgot Password?</a></p>
+          <p> <a href= "m_forgotPassword.php" style="color:blue;margin-top:5%; font-size:90% ;text-decoration: underline">Forgot Password?</a></p>
               <center>  <button class="button" type="submit">Sign In</button></center><br><br>
                </form>
        <center><h5 style="color:blue; padding-top:2%;font-size: 5%vw">New Member?
-		      <button class ="button" type="submit" onclick= "window.location.href='sign-up.php'">Sign Up Here!</button>
+		      <button class ="button" type="submit" onclick= "window.location.href='m_sign-up.php'">Sign Up Here!</button>
 		    </h5></center>
              
 		  </div>

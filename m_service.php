@@ -124,7 +124,7 @@
           
           <br>
           <center> <h4 style="font-size: 140%"> Our main office number is: 565-325-8765. Please call to resolve any issues.</h4></center><br><br><br>
-          <center><h4><a href="sign-in.php" style="text-decoration:underline">Click here to Sign In again!</a></h4></center>'
+          <center><h4><a href="m_sign-in.php" style="text-decoration:underline">Click here to Sign In again!</a></h4></center>'
 <br><br><br>
                                                       
  

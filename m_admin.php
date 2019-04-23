@@ -105,28 +105,15 @@ session_start();
                     
 						?></a>
                                     <ul>
-											  <li><a href="account.php">My Account</a></li>
-                                        <li><a href="cart.php">My Cart</a></li>
+											  <li><a href="m_account.php">My Account</a></li>
 											  
                                               <li><a href="logout.php">Log Out</a></li>
 										  </ul>
 					</li>	
 
-                  <li><a href="#">Category</a>
-                    <ul>
-                      <li><a href="m_u_chocolate.php">Chocolate</a></li>
-                      <li><a href="m_u_lollipop.php">Lollipop</a></li>
-                      <li><a href="m_u_cake.php">Cake</a></li>
-                     
-                   </ul></li>
 
                
-                  <li><a href="m_u_service.php" >Customer Service</a></li>
-                                    
-                            <li><a href="m_u_about.php">About Us</a></li>
-                                    
-									<li><a href="m_u_contact.php">Contact Us</a></li>
-                 
+
 								</ul>
 							</nav>
 						</div>

@@ -166,7 +166,7 @@ session_start();
 		  <img src= "img/logo/jump.png" alt= "" class="happy"></center>
 		</a><br><br><br>		<br>';
 				echo '<span style="color:#00ccff;text-align:center;"><center><h4> Your ORDER has been placed successfully</h4></center></span>'; 
-				echo '<br><br><h4><center>Go Back To Category-> <a href="u_chocolate.php">Chocolate</a> / <a href="u_lollipop.php">Lollipop</a> / <a href="u_cake.php">Cake</a>  </center></h4>';
+				echo '<br><br><h4><center>Go Back To Category-> <a href="m_u_chocolate.php">Chocolate</a> / <a href="m_u_lollipop.php">Lollipop</a> / <a href="u_cake.php">Cake</a>  </center></h4>';
        
 	}
 ?>

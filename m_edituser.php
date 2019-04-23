@@ -105,8 +105,8 @@ session_start();
                     
 						?></a>
                                     <ul>
-											  <li><a href="account.php">My Account</a></li>
-                                        <li><a href="cart.php">My Cart</a></li>
+											  <li><a href="m_account.php">My Account</a></li>
+                                        <li><a href="m_cart.php">My Cart</a></li>
 											  
                                               <li><a href="logout.php">Log Out</a></li>
 										  </ul>
@@ -169,7 +169,7 @@ if($_POST){
     $result2 = $conn->query($sql2) or die(mysqli_error());
 
     if($result2){
-        echo "<script> alert('Record Updated');window.location='account.php' ;</script>";
+        echo "<script> alert('Record Updated');window.location='m_account.php' ;</script>";
     }
 }
 ?>

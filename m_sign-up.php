@@ -54,7 +54,7 @@
 
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<div class="logo logo2">
-								<a href="index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
+								<a href="m_index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
 							</div>
 						</div>
 
@@ -144,7 +144,7 @@
               <center><button class="button" type="submit">Sign Up</button></center><br><br>
                </form>
        <center> <h5 style="color:blue; padding-top:2%;font-size: 5%vw">Already a Member?
-		      <button class ="button" type="submit" onclick= "window.location.href='sign-in.php'">Sign In Here!</button>
+		      <button class ="button" type="submit" onclick= "window.location.href='m_sign-in.php'">Sign In Here!</button>
            </h5></center>
              
 		  </div>

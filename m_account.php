@@ -105,8 +105,8 @@ session_start();
                     
 						?></a>
                                     <ul>
-											  <li><a href="account.php">My Account</a></li>
-                                        <li><a href="cart.php">My Cart</a></li>
+											  <li><a href="m_account.php">My Account</a></li>
+                                        <li><a href="m_cart.php">My Cart</a></li>
 											  
                                               <li><a href="logout.php">Log Out</a></li>
 										  </ul>

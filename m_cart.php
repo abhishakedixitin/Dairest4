@@ -155,7 +155,7 @@ session_start();
  
 <center>
 <div id="shopping-cart" >
-<div style="color:white; background-color:rgb(110,65,30); width:85%; font-size:30px;">Shopping Cart  <a id="btnEmpty" align="right" href="cart.php?empty=1"><img src="img/cart/cartempt.png"></img></a>
+<div style="color:white; background-color:rgb(110,65,30); width:85%; font-size:30px;">Shopping Cart  <a id="btnEmpty" align="right" href="m_cart.php?empty=1"><img src="img/cart/cartempt.png"></img></a>
 <table style="text-align:center; border-right: 5px solid " border="1">
 <tbody style="color:rgb(110,65,30); background-color:white; font-size:20px; border: 3px solid rgb(110,65,30); ">
 				<tr style="color:rgb(110,65,30); background-color:white;border: 3px solid rgb(110,65,30);">
@@ -182,7 +182,7 @@ session_start();
 									 <div class="thumb-image"> <img src="'.$row['c_image'].'" data-imagezoom="true" class="img-responsive" alt=""/> </div>
 								</td>
 								<td width=10%><strong>$ '.$row["c_price"].'</strong></td>
-								<td width=25%><a href="cart.php?remove='.$row["c_id"].'" class="btnRemoveAction"><img src="img/cart/cartrm.png" width="100" height="40"></img></a>
+								<td width=25%><a href="m_cart.php?remove='.$row["c_id"].'" class="btnRemoveAction"><img src="img/cart/cartrm.png" width="100" height="40"></img></a>
 									
 								</td>
 								</tr>';
