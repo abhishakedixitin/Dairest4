@@ -96,7 +96,7 @@
 
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<div class="logo logo2">
-								<a href="index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
+								<a href="u_index.php"><img src="img/logo/logo2.png" width="300px" height="100px" alt="" /></a>
 							</div>
 						</div>
 
@@ -117,7 +117,7 @@
 						<div class="mainmenu hidden-xs" style="color:rgb(110,65,30)">
 							<nav>
 								<ul style="color:rgb(110,65,30)">
-                                     <li><a href="index.php" >Home</a></li>
+                                     <li><a href="u_index.php" >Home</a></li>
                                     
                  
 
