@@ -165,7 +165,7 @@ session_start();
         <br>
 
 
-        <h2><a href="check_order_table.php"
+        <h2><a href="check-order-table.php"
                style="color:blue;margin-top:5%; font-size: 2vw;text-decoration: underline">Update Order Table</a></h2>
         <br>
 
