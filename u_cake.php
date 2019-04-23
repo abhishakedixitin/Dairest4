@@ -137,9 +137,9 @@ session_start();
                    </ul>
 
                
-                  <li><a href="about.php" >About Us</a></li>
+                  <li><a href="u_about.php" >About Us</a></li>
 
-									<li><a href="contact.php">Contact Us</a></li>
+									<li><a href="u_contact.php">Contact Us</a></li>
 
 								</ul>
 							</nav>
@@ -274,11 +274,11 @@ session_start();
 							</div>
 							<div class="footer-wrapper">
 								<ul class="usefull-link" >
-									<li ><a href="contact.php" style="color:#ffffff">Contact us</a></li>
+									<li ><a href="u_contact.php" style="color:#ffffff">Contact us</a></li>
 									
-									<li><a href="about.php" style="color:#ffffff">About us</a></li>
+									<li><a href="u_about.php" style="color:#ffffff">About us</a></li>
 									
-									<li><a href="service.php" style="color:#ffffff">Customer service</a></li>
+									<li><a href="u_service.php" style="color:#ffffff">Customer service</a></li>
 								</ul>
 							</div>
 						</div>
