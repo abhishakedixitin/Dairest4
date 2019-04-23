@@ -103,7 +103,7 @@
 						
 							<div class="header-bottom-right header-bottom-right-4">
 								<div class="shop-cart shop-cart-empty">
-									<a href="#" style="color:#ffffff"><span class="lnr lnr-cart"></span></a>
+									<a href="cart.php" style="color:#ffffff"><span class="lnr lnr-cart"></span></a>
 								</div>
 							</div>	
 						</div>
