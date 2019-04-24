@@ -188,8 +188,8 @@ if($_POST){
     <input type="hidden" name="id" value="<?php echo $row["id"];?>">
     <tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>USERNAME</th> <td align=center> <input disabled="disabled" type="text" value="<?php echo $row["username"]; ?>" name="txt1"></td></tr>
  	<tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>PASSWORD</th> <td align=center><input type="text" value="<?php echo $row["password"]; ?>" name="txt2"></td></tr>
- 	<tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>MOBILE</th> <td align=center><input type="text" value="<?php echo $row["mobile"]; ?>" name="txt3"></td></tr>
- 	<tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>EMAIL</th> <td align=center><input type="text" value="<?php echo $row["email"]; ?>" name="txt4"></td></tr>
+ 	<tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>MOBILE</th> <td align=center><input type="text" value="<?php echo $row["u_mobile"]; ?>" name="txt3"></td></tr>
+ 	<tr><th style='color:white;background-color:rgb(110,65,30); text-align:center'>EMAIL</th> <td align=center><input type="text" value="<?php echo $row["u_email"]; ?>" name="txt4"></td></tr>
 
   </table><br><br>
         
