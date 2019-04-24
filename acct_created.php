@@ -142,7 +142,7 @@
 		$email = $_POST['user_email'];
 		$password = $_POST['user_password'];
 		$mobile = $_POST['user_mobile'];
-		$result = mysqli_query($conn,"SELECT username,mobile,email FROM users WHERE (username='$username' OR mobile='$mobile' OR email='$email')");
+		$result = mysqli_query($conn,"SELECT username,u_mobile,u_email FROM users WHERE (username='$username' OR u_mobile='$mobile' OR u_email='$email')");
 		if ($result && mysqli_num_rows($result) > 0)
 		{
             echo '<a>
@@ -159,7 +159,7 @@
 				}
 				else
 				{
-						$sql = "Insert into users (username,password,mobile,email) values  ('$username','$password','$mobile','$email')";
+						$sql = "Insert into users (username,password,u_mobile,u_email) values  ('$username','$password','$mobile','$email')";
 						$result = mysqli_query($conn,$sql) or mysqli_error($conn);
                    echo '<a><center>
 		  <img src= "img/logo/jump.png" alt= "" class="happy"></center>
