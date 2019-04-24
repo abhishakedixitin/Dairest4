@@ -26,8 +26,8 @@ while($row = $result->fetch_assoc()) {
         ."<td align=center>".$row["u_acct_type"]."</td>"
         ."<td align=center>".$row["username"]."</td>"
         ."<td align=center>".$row["password"]."</td>"
-        ."<td align=center>".$row["u_mobile"]."</td>"
-        ."<td align=center>".$row["u_email"]."</td>" ;
+        ."<td align=center>".$row["mobile"]."</td>"
+        ."<td align=center>".$row["email"]."</td>" ;
     $user_id = $row["id"];
     echo "<td><a href='editadmin.php?editid=$user_id'>Edit</a> | <a href='check-user-table.php?deleteid=$user_id'> Delete</a></td>";
     echo "</tr>";
